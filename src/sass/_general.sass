@@ -13,8 +13,42 @@ nav
     list-style-type: none
     display: flex
     justify-content: space-between
+    &_link
+        color: #000
+        text-decoration: none
+        font-weight: 500
+        &:hover
+            color: $second-color
 
-.menu_link
-    color: #000
-    text-decoration: none
-    font-weight: 500
+.subheader
+    margin-top: 140px
+    display: flex
+    justify-content: space-between
+    &_img
+        display: block
+        margin-top: 20px
+        width: 360px
+        height: 235px
+    &_text
+        padding-left: 130px
+    &_title
+        font-weight: 500
+        font-size: 48px
+        color: #000000
+    &_subtitle
+        margin-top: 45px
+        font-weight: 400
+        font-size: 16px
+        line-height: 26px
+        color: #727272
+    &_btn
+        margin-top: 45px
+        width: 225px
+        height: 65px
+        background: $second-color
+        font-weight: 400
+        font-size: 16px
+        line-height: 26px
+        text-align: center
+
+        color: #FFFFFF
